@@ -1,0 +1,54 @@
+.disabledList{
+    
+    pointer-events:none; 
+    opacity:0.6;        
+
+}
+
+#todoList{
+    border: 10px solid #F4B41A;
+    border-radius: 1rem;
+}
+
+#mainnavbar{
+    background: #F4B41A;
+}
+
+
+body{
+    background-color: #143D59;
+    position: relative;
+    min-height: 89vh;
+}
+
+.minHeight{
+    min-height: 72vh;
+}
+.marginTop{
+    margin-top: 100px;
+}
+.marginBottomReduce{
+    margin-bottom: 20px !important;
+}
+
+.pushRight{
+    position: absolute !important;
+    left:60px !important;
+    /* top: 13px !important; */
+
+}
+
+
+
+canvas{
+  position: absolute;
+  height:100%; 
+  width: 100%;
+  top:0;
+  left:0;
+  object-fit: cover;
+  background: transparent;
+}
+
+
+
